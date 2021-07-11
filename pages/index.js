@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.bar}>
+            <h1>ask.apuem</h1>
+        </div>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
